@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Eduction Website</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<section class="header" id="about">
+
+  <nav>
+
+  <a href="index.html"><img src="image/university.webp" alt=""></a>
+
+  <div class="nav-links" id="navLinks">
+
+  <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+  <ul>
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="about.html">ABOUT</a></li>
+  <li><a href="course.html">COURSE</a></li>
+  <li><a href="blog.html">BLOG</a></li>
+  <li><a href="contact.html">CONTACT</a></li>
+  </ul>
+
+  </div>
+
+  <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+
+  </nav>
+
+  <h1 class="text-box">Our Courses</h1>
+</section>
+
+
+<!--courses section code start -->
+
+<section class="course">
+<h1>Courses We Offer</h1>
+
+  <div class="row">
+
+  <div class="course-col">
+  <h2>Intermediate</h2>
+  <p>Our intermediate course offers a fantastic opportunity to build on foundational skills, enhancing expertise with hands-on projects, expert guidance, and personalized feedback. Perfect for advancing your professional journey!</p>
+  </div>
+
+  <div class="course-col">
+  <h2>Degree</h2>
+  <p>Our degree course provides a comprehensive curriculum designed to equip you with in-depth knowledge, practical skills, and industry insights, setting you up for success in your chosen career path.</p>
+  </div>
+
+  <div class="course-col">
+  <h2>Post Graduation</h2>
+  <p>Our post-graduation course offers advanced learning, specialized knowledge, and research opportunities, empowering you to excel in your field and enhance your career prospects with expert guidance and real-world applications.</p>
+  </div>
+
+  </div>
+</section>
+<!--courses section code end -->
+
+<!-- our facilities section code start -->
+
+<section class="facilities">
+<h1>Our Facilities</h1>
+
+  <div class="row">
+
+  <div class="facilities-col">
+  <img src="https://plus.unsplash.com/premium_photo-1677567996070-68fa4181775a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGlicmFyeXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60"
+  alt="">
+  <h2>World Class Library</h2>
+  <p>Our world-class library boasts an extensive collection of resources, cutting-edge technology, and comfortable study spaces, providing an inspiring environment for research, learning, and personal growth for all visitors.</p>
+  </div>
+
+  <div class="facilities-col">
+  <img src="https://plus.unsplash.com/premium_photo-1663948061665-34c2b6d42381?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3BvcnRzJTIwZ3JvdW5kfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60g"
+  alt="">
+  <h2>Largest Playground</h2>
+  <p>Our largest playground offers expansive space for various sports and recreational activities, featuring top-notch equipment and safe, well-maintained grounds, perfect for promoting physical fitness and fun for all ages.</p>
+  </div>
+
+  <div class="facilities-col">
+  <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60"
+  alt="">
+  <h2>Testy and Healthy Food</h2>
+  <p>Our tasty and healthy food options combine fresh ingredients and balanced nutrition, offering delicious meals that fuel the body and delight the taste buds—perfect for a wholesome dining experience.</p>
+  </div>
+
+  </div>
+
+</section>
+<!-- our facilities section code end -->
+
+
+
+<!-- footer section code start -->
+
+<footer class="about">
+
+<h2>About Us</h2>
+<p>We are a dedicated institution focused on providing high-quality education, fostering personal growth, and preparing students for success through innovative learning, expert guidance, and a supportive community that encourages excellence.</p>
+
+  <div class="social-icons">
+  <a href="https://www.facebook.com/mohammadabdullaazziz"><i class="fa  icons fa-solid fa-facebook"></i></a>
+  <a href="https://www.instagram.com/mohammadabdullaazziz/"><i class="fa icons fa-solid fa-instagram"></i></a>
+  <a href="https://x.com/mohammdabdullaa"><i class="fa icons fa-solid fa-twitter"></i></a>
+  </div>
+
+  <p>Made With <i class="fa fa-solid fa-heart-o"></i> by Abdulla Bin Aziz</p>
+
+</footer>>
+<!-- footer section code end -->
+
+<!-- javascript For Menu -->
+
+<script>
+let navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+navLinks.style.right = "0";
+}
+function hideMenu() {
+navLinks.style.right = "-200px";
+}
+</script>
+
+</body>
+
+</html>

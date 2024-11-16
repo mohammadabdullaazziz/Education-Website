@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eduction Website</title>
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<section class="header" id="about">
+ <nav>
+
+  <a href="index.html"><img src="image/university.webp" alt=""></a>
+
+  <div class="nav-links" id="navLinks">
+    <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+    <ul>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+    <li><a href="course.html">COURSE</a></li>
+    <li><a href="blog.html">BLOG</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </div>
+
+  <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+
+  </nav>
+  <h1 class="text-box">About Us</h1>
+
+</section>
+
+<section class="about-section">
+
+ <div class="row">
+
+   <div class="about-col">
+   <h1>We are the World largest university</h1>
+   <p>As the world’s largest university, we proudly offer an unparalleled range of programs, cutting-edge research opportunities, and a diverse, global community. With state-of-the-art facilities, expert faculty, and a commitment to innovation, we empower students from all backgrounds to achieve their dreams and make a lasting impact in their fields.</p>
+   <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+   </div>
+
+   <div class="about-col">
+   <img src="https://images.unsplash.com/photo-1569447891824-7a1758aa73a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHVuaXZlcnNpdHklMjBjYW1wdXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" alt="">
+   </div>
+
+ </div>
+
+</section>
+
+
+
+<!-- footer section code start -->
+
+<footer class="about">
+
+<h2>About Us</h2>
+
+<p>We are a leading institution dedicated to excellence in education, research, and innovation. Our mission is to empower students worldwide with knowledge, skills, and opportunities for a successful future.</p>
+
+<div class="social-icons">
+<a href="https://www.facebook.com/mohammadabdullaazziz"><i class="fa  icons fa-solid fa-facebook"></i></a>
+<a href="https://www.instagram.com/mohammadabdullaazziz/"><i class="fa icons fa-solid fa-instagram"></i></a>
+<a href="https://x.com/mohammdabdullaa"><i class="fa icons fa-solid fa-twitter"></i></a>
+</div>
+<p>Made With <i class="fa fa-solid fa-heart-o"></i> Abdulla Bin Aziz</p>
+
+</footer>>
+<!-- footer section code end -->
+
+<!--javascript For Menu -->
+
+<script>
+let navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+navLinks.style.right = "0";
+}
+function hideMenu() {
+navLinks.style.right = "-200px";
+}
+</script>
+
+</body>
+
+</html>
